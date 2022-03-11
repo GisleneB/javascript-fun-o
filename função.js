@@ -8,6 +8,6 @@ function sum (x){
 }
 
 function sum (x, y, z){
-    console.log('x', 'y', 'z')
+    console.log(x, y, z)
     return x * y - y * z;
 }
