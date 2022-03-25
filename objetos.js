@@ -1,11 +1,33 @@
+function exercício1(){
+    console.log("vou me comportar direitinho");
+}
+
 function bart_simpsom(n){
-   n * n 
+    var i = 0;
+    while(i<n){
+        exercício1();
+        i = i + 1;
+    }
 }
 
 function number(a){
-    return 16
+    var i = 1;
+    var soma = 0;
+    while(i<=a){
+        soma = soma + i;
+        i = i + 1;
+    }
+    return soma;
 }
 
-function number(u, v){
-    0, 2, 4, 6, 8, 10, 12
+function number(n, q){
+    var i = 0;
+    while(i<=q){
+        if(i % n == 0){
+            console.log(i);
+        }
+        i = i + 1;
+    }
+
 }
+
